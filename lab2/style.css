@@ -1,0 +1,112 @@
+#mainpage {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#\ left-segment , #right-segment {
+    display: flex;
+    padding : 50px;
+}
+#\ left-segment {
+    display: flex;
+    background: #e8e2e2;
+    margin: 20px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+}
+#\ right-segment {
+    display: flex;
+    background: #e8e2e2;
+    margin: 20px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+}
+
+
+#aboutme{
+    background: #e8e2e2;
+    padding: 10px;
+    margin: 10px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+    width: 30% ;
+
+}
+#aboutme-paragraph{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70% ;
+    /*p {*/
+    /*    font-family: Arial, sans-serif;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 1.5;*/
+    /*    color: #333;*/
+    /*    margin: 20px 0;*/
+    /*    padding: 10px;*/
+    /*    background-color: #f9f9f9;*/
+    /*    border: 1px solid #ddd;*/
+    /*    border-radius: 5px;*/
+    /*}*/
+}
+#projects{
+    background: #e8e2e2;
+    padding: 10px;
+    margin: 20px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+}
+#contact-me{
+    background: #e8e2e2;
+    padding: 10px;
+    margin: 20px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+}
+#skills{
+    background: #e8e2e2;
+    padding: 10px;
+    margin: 20px;
+    border : 1px solid #cccccc;
+    border-radius: 5px ;
+}
+nav{
+    background-color: aliceblue ;
+    padding : 10px ;
+}
+nav ul{
+    list-style-type:none;
+    margin : 0 ; background-color: aliceblue ;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    transition: all .3s ease-out;
+}
+footer{
+    background-color: aliceblue ;
+    padding: 20px ;
+    text-align: center ;
+}
